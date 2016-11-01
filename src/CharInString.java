@@ -3,10 +3,10 @@ public class CharInString {
 
     public static int countLetters(String incomeString, Character searchingCharacter) {
         if (incomeString == null || incomeString.equals("")) {
-            throw new IllegalArgumentException("Усп!! что то пошло не так");
+            throw new IllegalArgumentException();
         }
         if (searchingCharacter == null) {
-            throw new IllegalArgumentException("Усп!! что то пошло не так, но в другом смысле");
+            throw new IllegalArgumentException();
         }
         int result = 0;
 
