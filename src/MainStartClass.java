@@ -5,5 +5,6 @@ public class MainStartClass {
         Character searchingChar = 't';
 
         CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 4);
+        CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 5);
     }
 }
