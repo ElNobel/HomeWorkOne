@@ -1,6 +1,9 @@
 
 public class MainStartClass {
     public static void main(String[] args) {
-        System.out.println(CharInString.sumOfCharInString("abaasb", 'a') == 3);
+        String inLine = "text for test";
+        Character searchingChar = 't';
+
+        CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 4);
     }
 }
