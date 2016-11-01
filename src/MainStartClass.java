@@ -4,7 +4,7 @@ public class MainStartClass {
         String inLine = "text for test";
         Character searchingChar = 't';
 
-        CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 4);
-        CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 5);
+        System.out.println(CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 4));
+        System.out.println(CharInString.testOfCount(CharInString.countLetters(inLine, searchingChar), 5));
     }
 }
